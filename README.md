@@ -17,6 +17,8 @@ This repository contains iperf3 benchmarks that were taken from inside a Virtual
 | Win10 - TCP | 1,899.58 Mbps | 1,880.43 Mbps | 423.516 Mbps  |
 | Win10 - UDP | 990.990 Mbps  | 461.042 Mbps  | 1,007.62 Mbps |
 
+The slow throughput on the Intel cards inside Linux are likely due to a multi-core bug. Disabling extra cores would likely "fix" it, but that's not an acceptable solution in most situations.
+
 ## Host system details
 
 The host system had the following specs:
